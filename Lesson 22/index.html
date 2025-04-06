@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 22</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      .text-wrapper {
+        border: 1px solid #eee;
+        position: relative;
+        padding: 20px 30px;
+      }
+      .text {
+        height: 200px;
+        overflow: auto;
+        padding: 20px;
+        border: 5px solid #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="py-4">Lesson 22</h1>
+      <div class="row mb-5">
+        <div class="col-4 text-wrapper">
+          <div class="text">
+            <p class="mb-3">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+              sapiente soluta quis maiores. Laborum, dolorum delectus! Veritatis
+              tempore suscipit est molestiae perspiciatis, porro libero quaerat
+              possimus, ut mollitia corrupti ab?
+            </p>
+            <p class="mb-3">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+              sapiente soluta quis maiores. Laborum, dolorum delectus! Veritatis
+              tempore suscipit est molestiae perspiciatis, porro libero quaerat
+              possimus, ut mollitia corrupti ab?
+            </p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="alert alert-light h-100 m-0"></div>
+        </div>
+        <div class="col-2 d-flex flex-column gap-2">
+          <button class="btn btn-primary">Get metrics (offset)</button>
+          <button class="btn btn-secondary">Get metrics (client)</button>
+          <button class="btn btn-dark">Get metrics (scroll)</button>
+        </div>
+        <div class="col-2 d-flex flex-column gap-2">
+          <button class="btn btn-outline-primary">Get metrics (window)</button>
+          <button class="btn btn-outline-secondary">Get Window coords</button>
+          <button class="btn btn-outline-dark">Get Page coords</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <ul class="list-group">
+            <li class="list-group-item position-relative">Item 1</li>
+            <li class="list-group-item position-relative">Item 2</li>
+            <li class="list-group-item position-relative">Item 3</li>
+            <li class="list-group-item position-relative">Item 4</li>
+            <li class="list-group-item position-relative">Item 5</li>
+            <li class="list-group-item position-relative">Item 6</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
